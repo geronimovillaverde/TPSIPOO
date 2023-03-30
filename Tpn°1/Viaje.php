@@ -6,9 +6,17 @@ Realice la implementación de la clase Viaje e implemente los métodos necesario
 Implementar un script testViaje.php que cree una instancia de la clase Viaje y presente un menú que permita cargar la información del viaje, modificar y ver sus datos. */
 
 class Viaje{
+    //atributos
     private $codigo;
     private $destino;
     private $cantMaxPasajeros;
-    private $pasajeros;
+    private $pasajero;
+
+    //metodos
+    public function __construct(){
+        echo "construct creado";
+    }
+    
+
 }
 

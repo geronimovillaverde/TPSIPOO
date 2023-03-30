@@ -2,4 +2,4 @@
 
 include ("Viaje.php");
 
-echo "hola prueba";
+$viaje1 = new Viaje;
