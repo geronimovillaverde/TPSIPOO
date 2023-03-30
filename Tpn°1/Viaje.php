@@ -16,6 +16,13 @@ class Viaje{
     public function __construct(){
         echo "construct creado";
     }
+
+    public function setCodigo($codigo){
+        $this -> codigo = $codigo;
+    }
+    public function getCodigo(){
+        return $this -> codigo;
+    }
     
 
 }
