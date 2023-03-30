@@ -1,3 +1,4 @@
 <?php
 
-echo "Hola github";
+echo "Hola github\n";
+
