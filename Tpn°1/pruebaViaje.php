@@ -20,3 +20,13 @@ echo $viaje1 -> __toString();
 
 
 
+
+echo "\nIngrese el nuevo destino: ";
+$nuevoDestino = trim(fgets(STDIN));
+
+$viaje1 -> setDestino($nuevoDestino);
+
+echo $viaje1 -> __toString();
+
+
+

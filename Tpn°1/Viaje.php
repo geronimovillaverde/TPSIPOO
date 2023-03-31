@@ -10,7 +10,7 @@ class Viaje{
     private $codigo;
     private $destino;
     private $cantMaxPasajeros;
-    private $pasajeros = [];
+    private $pasajeros;
 
     //metodos
     public function __construct(){
@@ -18,8 +18,6 @@ class Viaje{
         $this -> destino = "";
         $this -> cantMaxPasajeros = 0;
         $this -> pasajeros = [];
-    
-    
     }
 
     public function setCodigo($codigo){
