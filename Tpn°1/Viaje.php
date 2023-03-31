@@ -10,11 +10,16 @@ class Viaje{
     private $codigo;
     private $destino;
     private $cantMaxPasajeros;
-    private $pasajero;
+    private $pasajeros = [];
 
     //metodos
     public function __construct(){
-        echo "construct creado";
+        $this-> codigo = "";
+        $this -> destino = "";
+        $this -> cantMaxPasajeros = 0;
+        $this -> pasajeros = [];
+    
+    
     }
 
     public function setCodigo($codigo){
@@ -36,9 +41,11 @@ class Viaje{
         return $this -> cantMaxPasajeros;
     }
 
-    public function cargarViaje(){
-        
+    public function __toString(){
+        $cadena = "El codigo es: " . $this-> getCodigo() . ", el destino es: " . $this-> getDestino() . ",la cant de pasajeros es: " . $this-> getCantMaxPasajeros() ;
+        return $cadena;
     }
+
     
 
 }
