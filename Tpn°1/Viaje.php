@@ -23,6 +23,22 @@ class Viaje{
     public function getCodigo(){
         return $this -> codigo;
     }
+    public function setDestino($destino){
+        $this -> destino = $destino;
+    }
+    public function getDestino(){
+        return $this -> destino;
+    }
+    public function setCantMaxPasajeros($cantMaxPasajeros){
+        $this -> cantMaxPasajeros = $cantMaxPasajeros;
+    }
+    public function getCantMaxPasajeros(){
+        return $this -> cantMaxPasajeros;
+    }
+
+    public function cargarViaje(){
+        
+    }
     
 
 }
